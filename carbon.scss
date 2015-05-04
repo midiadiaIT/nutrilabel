@@ -1,0 +1,44 @@
+$end: #4b6500;
+$start: #699300;
+
+.kpi-carbon {
+    font-family:Tahoma;
+    width: 90px;
+    height: 115px;
+    background-color: $start;
+    background-image: linear-gradient($start,$end);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=$start, endColorstr=$end)";
+
+
+    color:#fff;
+    position:relative;
+    .disclaimer {
+        font-size: 12px;
+        left:0;
+        right:0;
+        bottom:10px;
+        position: absolute;
+        text-align:center;
+        padding-bottom:3px;
+
+    }
+
+    .inner {
+        padding-top: 25px;
+        text-align:center;
+        font-size: 35px;
+    }
+
+    .explanation {
+        display: block;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        position: absolute;
+        top: 3px;
+        left: 0;
+        right: 10px;
+        text-align: right;
+    }
+}
+

@@ -1,0 +1,115 @@
+.kpi_idr {
+  font-family: Helvetica,Arial;
+  font-size: 13px;
+  background-color: #FFF;
+  border: 2px solid #d1d1d1;
+  margin-top: 5px;
+  width: 255px;
+  position: relative;
+  padding-top: 20px; }
+  .kpi_idr .disclaimer {
+    margin-right: 5px;
+    font-size: 11px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-align: right; }
+  .kpi_idr .inner {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px; }
+  .kpi_idr table {
+    color: #333;
+    font-size: 13px;
+    line-height: 18px;
+    border-collapse: collapse;
+    width: 100%; }
+    .kpi_idr table .big {
+      font-size: 35px;
+      font-weight: 700;
+      line-height: 30px;
+      padding-right: 10px;
+      text-align: right; }
+    .kpi_idr table .medium {
+      color: #555;
+      font-size: 20px;
+      margin-bottom: 0px;
+      margin-top: 7px; }
+    .kpi_idr table .small {
+      color: #999;
+      font-size: 12px;
+      font-weight: 600; }
+    .kpi_idr table .image {
+      margin-top: 3px; }
+    .kpi_idr table .percent {
+      float: left;
+      width: 1px;
+      height: 1px;
+      border: 1px solid #c6c6c6;
+      margin: 1px; }
+      .kpi_idr table .percent.fill {
+        background: #62b304;
+        border: 1px solid #62b304; }
+        .kpi_idr table .percent.fill.carbon {
+          background-color: #9db321;
+          border-color: #9db321; }
+        .kpi_idr table .percent.fill.fat {
+          background-color: #f24c27;
+          border-color: #f24c27; }
+        .kpi_idr table .percent.fill.protein {
+          background-color: #0092b2;
+          border-color: #0092b2; }
+  .kpi_idr .explanation {
+    position: absolute;
+    right: 7px;
+    top: 5px;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer; }
+
+.kpi_calories {
+  font-family: Helvetica,Arial;
+  font-size: 13px;
+  background-color: #FFF;
+  border: 2px solid #d1d1d1;
+  height: 90px;
+  margin-top: 5px;
+  width: 255px;
+  position: relative;
+  padding-top: 20px; }
+  .kpi_calories .inner {
+    margin: 10px; }
+  .kpi_calories .info {
+    float: left;
+    font-size: 10px; }
+    .kpi_calories .info ul {
+      margin: 0;
+      padding: 0; }
+    .kpi_calories .info li {
+      list-style-type: none; }
+    .kpi_calories .info h2 {
+      font-size: 12px;
+      margin: 0;
+      margin-bottom: 2px; }
+    .kpi_calories .info .box {
+      display: inline-block;
+      width: 5px;
+      height: 5px; }
+      .kpi_calories .info .box.carbon {
+        background-color: #9db321; }
+      .kpi_calories .info .box.fat {
+        background-color: #f24c27; }
+      .kpi_calories .info .box.protein {
+        background-color: #0092b2; }
+  .kpi_calories canvas {
+    float: right; }
+  .kpi_calories .explanation {
+    position: absolute;
+    right: 7px;
+    top: 5px;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer; }
+
+/*# sourceMappingURL=kpi.css.map */

@@ -1,0 +1,162 @@
+.kpi_idr {
+    font-family: Helvetica,Arial;
+    font-size: 13px;
+    background-color: #FFF;
+    border: 2px solid #d1d1d1;
+
+    margin-top: 5px;
+    width:255px;
+
+    .disclaimer {
+        margin-right: 5px;
+        font-size: 11px;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        text-align:right;
+    }
+
+    .inner {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+
+    table {
+        color: #333;
+        font-size: 13px;
+        line-height: 18px;
+        border-collapse: collapse;
+        width: 100%;
+
+        .big {
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 30px;
+            padding-right: 10px;
+            text-align: right;
+        }
+
+        .medium {
+            color: #555;
+            font-size: 20px;
+            margin-bottom: 0px;
+            margin-top: 7px;
+        }
+
+        .small {
+            color: #999;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .image {
+            margin-top: 3px;
+        }
+
+        .percent {
+            float: left;
+            width: 1px;
+            height: 1px;
+            border: 1px solid #c6c6c6;
+            margin: 1px;
+
+            &.fill {
+                background: #62b304;
+                border: 1px solid #62b304;
+
+                &.carbon {
+                    background-color: #9db321;
+                    border-color:#9db321;
+                }
+
+                &.fat {
+                    background-color: #f24c27;
+                    border-color:#f24c27;
+                }
+
+                &.protein {
+                    background-color: #0092b2;
+                    border-color: #0092b2;
+                }
+            }
+        }
+    }
+
+    position: relative;
+    padding-top:20px;
+    .explanation {
+        position: absolute;
+        right: 7px;
+        top: 5px;
+        display: block;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+
+.kpi_calories {
+    font-family: Helvetica,Arial;
+    font-size: 13px;
+    background-color: #FFF;
+    border: 2px solid #d1d1d1;
+    height: 90px;
+    margin-top: 5px;
+    width:255px;
+
+    .inner {
+        margin: 10px;
+    }
+    .info {
+        float:left;
+
+        font-size: 10px;
+        ul {
+            margin:0;
+            padding:0;
+        }
+        li {
+            list-style-type:none;
+
+
+        }
+        h2 {
+            font-size:12px;
+            margin: 0;
+            margin-bottom: 2px;
+        }
+
+        .box {
+            display: inline-block;
+            width: 5px;
+            height: 5px;
+            &.carbon {
+                background-color: #9db321;
+            }
+
+            &.fat {
+                background-color: #f24c27;
+            }
+
+            &.protein {
+                background-color: #0092b2;
+            }
+        }
+    }
+
+    canvas {
+        float: right;
+    }
+
+    position: relative;
+    padding-top:20px;
+    .explanation {
+        position: absolute;
+        right: 7px;
+        top: 5px;
+        display: block;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}

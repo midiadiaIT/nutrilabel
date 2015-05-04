@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="no-js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="nutrilabel.css">
+        <link rel="stylesheet" href="kpi.css">
+
+        <style>
+            .nutrilabeldemo {
+
+                margin-bottom: 10px;
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+
+
+
+
+        <div class="kpi" 
+		                             data-cal='484,0000'
+		                             data-carbonhidratos='0'
+		                             data-grasa='42'
+		                             data-proteina='58'>
+		                        </div>
+
+
+
+        <div class="kpi-calories"
+                                 data-cal='484,0000'
+                                 data-carbonhidratos='0'
+                                 data-grasa='42'
+                                 data-proteina='58'>
+                            </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="kpi.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $('.kpi').kpiIdr();
+                $('.kpi-calories').kpiCalories();
+            });
+        </script>
+    </body></html>
